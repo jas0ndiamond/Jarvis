@@ -1,0 +1,51 @@
+.roundedtable table 
+{ 
+	border-collapse: collapse; 
+	width: 1280px; 
+}
+.roundedtable 
+{
+	font: normal 24px/150% Arial, Helvetica, sans-serif; 
+	background: #fff; 
+	overflow: hidden; 
+	border: 4px solid #0000FF; 
+	-webkit-border-radius: 20px; 
+	-moz-border-radius: 20px; 
+	border-radius: 20px; 
+}
+
+.roundedtable table td,. 
+
+.roundedtable table th 
+{ 
+	padding: 1px 11px; 
+}
+
+.roundedtable table thead th 
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FFFFFF), color-stop(1, #FFFFFF) ); 
+	background:-moz-linear-gradient( center top, #FFFFFF 5%, #FFFFFF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#FFFFFF');
+	background-color:#FFFFFF; 
+	color:#000000; 
+	font-size: 56px; 
+	font-weight: bold; 
+	text-align: center;
+	
+	width: 1280px; 
+}
+.roundedtable table thead th:first-child 
+{ 
+	text-align: center;
+	border: none; 
+}
+
+.roundedtable table tbody td 
+{ 
+	color: #000000;
+	font-size: 56px;
+	font-weight: normal; 
+	padding: 3px; 
+}
+.roundedtable table tbody td:first-child { border-left: none; }
+.roundedtable table tbody tr:last-child td { border-bottom: none; }

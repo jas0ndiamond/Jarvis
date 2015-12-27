@@ -1,0 +1,11 @@
+.ui-progressbar 
+{
+	height: 20px;
+	position: relative;
+	background: #FFFFFF;
+
+}
+.ui-progressbar-value
+{
+	background: #0000FF;
+}
